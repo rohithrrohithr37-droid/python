@@ -1,0 +1,8 @@
+nums = [4, 2, 9, 1, 5]
+smallest = nums[0]
+
+for n in nums:
+    if n < smallest:
+        smallest = n
+
+print("Smallest:", smallest)
